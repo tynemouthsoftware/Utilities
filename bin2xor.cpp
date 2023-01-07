@@ -16,14 +16,15 @@ int main(int argc, char** argv)
 	unsigned int n = 0;
 	int c;
 
-    unsigned char x = 0;
+	unsigned char x = 0;
 
 	while(1)
 	{
 		c = fgetc(f);
 		if (c == EOF) break;
-        x = x ^ c;
+		x = x ^ c;
 	};
+	
 	fclose(f);
 	printf("%02x\n", x);
 }

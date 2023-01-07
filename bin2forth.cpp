@@ -22,18 +22,18 @@ int main(int argc, char** argv)
 	{
 		c = fgetc(f);
 		if (c == EOF)
-        {
-            break;
-        }
+		{
+			break;
+		}
 
-        if (c < 10)
-        {
-            printf("  ");
-        }
-        else if (c < 100)
-        {
-            printf(" ");
-        }
+		if (c < 10)
+		{
+			printf("  ");
+		}
+		else if (c < 100)
+		{
+			printf(" ");
+		}
 		printf(" %i c,", c);
 
 		++n;
@@ -41,9 +41,9 @@ int main(int argc, char** argv)
 		{
 			printf("\n");
 			if(n % 256 == 0)
-            {
-                printf("\n");   
-            }
+			{
+				printf("\n");   
+			}
 		}
 	};
 
