@@ -24,3 +24,10 @@ This reads in a binary file and generates an XOR checksum, as using in Jupiter A
 
 usage:
 ```./bin2xor x.bin```
+
+## bin2asm
+
+This reads in a binary file and generates a block of .BYTE defines suitable for TASM.
+
+usage:
+```./bin2asm x.bin```
