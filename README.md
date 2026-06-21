@@ -30,4 +30,11 @@ usage:
 This reads in a binary file and generates a block of .BYTE defines suitable for TASM.
 
 usage:
-```./bin2asm x.bin```
+```./bin2asm x.bin > x.asm```
+
+## font2asm
+
+This reads in a binary font file for 8x8 characters and generates a block of .BYTE defines suitable for TASM, will comments showing the characters.
+
+usage:
+```./font2asm x.bin > x.asm```
